@@ -16,15 +16,18 @@ module Apple
           
           @includes = (@parent.query_options[:include] || "").to_s.split(',').map(&:strip)
           
-          @items = attrs[:data].map do |item|
-            # see if the parent is the related item
-            if item[:id] == parent.id
-              parent
-            else
-              item_klass.new(item, @parent.query_options, @parent.client)
+          @items = []
+          
+          if !attrs[:data].nil?
+            @items = attrs[:data].map do |item|
+              # see if the parent is the related item
+              if item[:id] == parent.id
+                parent
+              else
+                item_klass.new(item, @parent.query_options, @parent.client)
+              end
             end
           end
-          
           @full_items = (@includes.length > 0) && @includes.include?(@items.first.type)
         end
         
