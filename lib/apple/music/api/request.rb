@@ -54,6 +54,8 @@ module Apple
           case code.to_i
           when 200
             return
+          when 400
+            Apple::Music::Error::BadRequestMethod.new(body, code)
           when 404
             Apple::Music::Error::NotFound.new(body, code)
           when 500
