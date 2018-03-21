@@ -1,0 +1,47 @@
+---
+:data:
+- :id: '1147165824'
+  :type: songs
+  :href: "/v1/catalog/us/songs/1147165824"
+  :attributes:
+    :previews:
+    - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/eb/1d/0f/eb1d0f98-b0f4-beb9-22aa-1e70eeb8d86e/mzaf_7159423330796504458.plus.aac.p.m4a
+    :artwork:
+      :width: 1500
+      :height: 1500
+      :url: https://is4-ssl.mzstatic.com/image/thumb/Music117/v4/7e/9d/76/7e9d7631-7f34-1fca-a657-1787faa7ab68/source/{w}x{h}bb.jpg
+      :bgColor: 191d1c
+      :textColor1: fefeff
+      :textColor2: d4d1d2
+      :textColor3: d0d0d1
+      :textColor4: aeadae
+    :artistName: Iron Maiden
+    :url: https://itunes.apple.com/us/album/hallowed-be-thy-name-2015-remastered-version/1147165685?i=1147165824
+    :discNumber: 1
+    :genreNames:
+    - Metal
+    - Music
+    - Rock
+    :durationInMillis: 431078
+    :releaseDate: '1982-03-22'
+    :name: Hallowed Be Thy Name (2015 Remastered Version)
+    :isrc: GBCHB1500026
+    :albumName: The Number of the Beast (2015 Remastered Edition)
+    :playParams:
+      :id: '1147165824'
+      :kind: song
+    :trackNumber: 8
+    :composerName: Steve Harris
+  :relationships:
+    :albums:
+      :data:
+      - :id: '1147165685'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1147165685"
+      :href: "/v1/catalog/us/songs/1147165824/albums"
+    :artists:
+      :data:
+      - :id: '546381'
+        :type: artists
+        :href: "/v1/catalog/us/artists/546381"
+      :href: "/v1/catalog/us/songs/1147165824/artists"

@@ -12,3 +12,6 @@
 .rspec_status
 TEST.md
 .env
+
+# OS Specific
+.DS_Store

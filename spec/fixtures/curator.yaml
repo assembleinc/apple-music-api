@@ -1,0 +1,57 @@
+---
+:data:
+- :id: '1107687517'
+  :type: curators
+  :href: "/v1/catalog/us/curators/1107687517"
+  :attributes:
+    :name: LargeUp
+    :artwork:
+      :width: 1080
+      :height: 1080
+      :url: https://is3-ssl.mzstatic.com/image/thumb/Features60/v4/ae/02/09/ae020996-8b44-d82d-e277-43790f0c5aa9/pr_source.png/{w}x{h}bb.jpg
+      :bgColor: '161113'
+      :textColor1: ffffff
+      :textColor2: f74b2f
+      :textColor3: d0cfcf
+      :textColor4: ca3f29
+    :editorialNotes:
+      :standard: LargeUp is the global platform for Caribbean music and culture. Since
+        2009, LargeUp.com has captured the vibrant sounds, styles and flavors of the
+        islands, spotlighting the best in reggae, dancehall, soca + beyond.
+      :short: Island music and culture.
+    :url: https://itunes.apple.com/us/curator/largeup/1107687517
+  :relationships:
+    :playlists:
+      :data:
+      - :id: pl.1733b17c0500405c8e9eedc0e1939787
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.1733b17c0500405c8e9eedc0e1939787"
+      - :id: pl.369f410f8f344e8a971a08659f79207e
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.369f410f8f344e8a971a08659f79207e"
+      - :id: pl.a9a9f773150f4796ac4601dd0640e275
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.a9a9f773150f4796ac4601dd0640e275"
+      - :id: pl.d1c17b9799af41e0a4a8bfef6c42be95
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.d1c17b9799af41e0a4a8bfef6c42be95"
+      - :id: pl.b21d4a775ee54e638b23fa1970719d2b
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.b21d4a775ee54e638b23fa1970719d2b"
+      - :id: pl.b80bbeb133bb42aa8adf17287b0bc31b
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.b80bbeb133bb42aa8adf17287b0bc31b"
+      - :id: pl.04e785359ca24ea6809b2075f2a3606f
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.04e785359ca24ea6809b2075f2a3606f"
+      - :id: pl.df2ca4bdc14e48afa4e6e6a3cf43a071
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.df2ca4bdc14e48afa4e6e6a3cf43a071"
+      - :id: pl.39bc6eb479f24dd2923a0e3c8e5de0d5
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.39bc6eb479f24dd2923a0e3c8e5de0d5"
+      - :id: pl.6dac31693031417dac89aebbc5cb8e04
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.6dac31693031417dac89aebbc5cb8e04"
+      :href: "/v1/catalog/us/curators/1107687517/playlists"
+      :next: "/v1/catalog/us/curators/1107687517/playlists?offset=10"

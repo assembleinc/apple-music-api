@@ -1,0 +1,24 @@
+---
+:data:
+- :id: ra.985499642
+  :type: stations
+  :href: "/v1/catalog/us/stations/ra.985499642"
+  :attributes:
+    :name: Metal
+    :artwork:
+      :width: 4320
+      :height: 1080
+      :url: https://is4-ssl.mzstatic.com/image/thumb/Features122/v4/b3/50/ed/b350edb0-9f93-715c-fc91-8ce3062c24be/source/{w}x{h}{c}.jpg
+      :bgColor: '000000'
+      :textColor1: fafafa
+      :textColor2: e6e6e6
+      :textColor3: c8c8c8
+      :textColor4: b8b8b8
+    :playParams:
+      :id: ra.985499642
+      :kind: radioStation
+    :isLive: false
+    :url: https://itunes.apple.com/us/station/metal/ra.985499642
+    :editorialNotes:
+      :name: Metal
+      :short: Doom, thrash, and more.

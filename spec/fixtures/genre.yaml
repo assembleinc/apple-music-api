@@ -1,0 +1,7 @@
+---
+:data:
+- :id: '5'
+  :type: genres
+  :href: "/v1/catalog/us/genres/5"
+  :attributes:
+    :name: Classical

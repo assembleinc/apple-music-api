@@ -1,0 +1,330 @@
+---
+:data:
+- :id: '1147164122'
+  :type: albums
+  :href: "/v1/catalog/us/albums/1147164122"
+  :attributes:
+    :artwork:
+      :width: 1425
+      :height: 1425
+      :url: https://is1-ssl.mzstatic.com/image/thumb/Music41/v4/b7/01/00/b7010035-9a07-1ac9-df27-a24d2646027b/881034134455.jpg/{w}x{h}bb.jpg
+      :bgColor: 18150c
+      :textColor1: fbfcf7
+      :textColor2: dcd752
+      :textColor3: cdcec8
+      :textColor4: b5b044
+    :artistName: Iron Maiden
+    :isSingle: false
+    :url: https://itunes.apple.com/us/album/piece-of-mind-2015-remastered-edition/1147164122
+    :isComplete: true
+    :genreNames:
+    - Metal
+    - Music
+    - Rock
+    :trackCount: 9
+    :releaseDate: '1983-05-16'
+    :name: Piece of Mind (2015 Remastered Edition)
+    :recordLabel: Sanctuary Records
+    :copyright: "℗ 1998 2015 Iron Maiden Holdings Ltd. under exclusive license to
+      Sanctuary Records Group Ltd., a BMG Company"
+    :playParams:
+      :id: '1147164122'
+      :kind: album
+  :relationships:
+    :artists:
+      :data:
+      - :id: '546381'
+        :type: artists
+        :href: "/v1/catalog/us/artists/546381"
+      :href: "/v1/catalog/us/albums/1147164122/artists"
+    :tracks:
+      :data:
+      - :id: '1147164123'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164123"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/30/ca/f5/30caf545-49a5-1d80-0a3f-43f23a2045ce/mzaf_2682952656896186270.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/where-eagles-dare-2015-remastered-version/1147164122?i=1147164123
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 372750
+          :releaseDate: '1983-05-16'
+          :name: Where Eagles Dare (2015 Remastered Version)
+          :isrc: GBCHB1500027
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164123'
+            :kind: song
+          :trackNumber: 1
+          :composerName: Steve Harris
+      - :id: '1147164124'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164124"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/e2/bb/12/e2bb1207-e404-527c-6a4f-9048bf2f2209/mzaf_5087186791157056510.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/revelations-2015-remastered-version/1147164122?i=1147164124
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 409632
+          :releaseDate: '1983-05-16'
+          :name: Revelations (2015 Remastered Version)
+          :isrc: GBCHB1500028
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164124'
+            :kind: song
+          :trackNumber: 2
+          :composerName: Bruce Dickinson
+      - :id: '1147164125'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164125"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview22/v4/34/db/24/34db2495-4453-2a77-4422-a22689c8c101/mzaf_532839692367329303.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/flight-of-icarus-2015-remastered-version/1147164122?i=1147164125
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 230767
+          :releaseDate: '1983-04-11'
+          :name: Flight of Icarus (2015 Remastered Version)
+          :isrc: GBCHB1500029
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164125'
+            :kind: song
+          :trackNumber: 3
+          :composerName: Adrian Smith & Bruce Dickinson
+      - :id: '1147164126'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164126"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/79/32/39/79323972-193f-0c99-d02d-b9231710ebe7/mzaf_2564389176909098085.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/die-with-your-boots-on-2015-remastered-version/1147164122?i=1147164126
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 327247
+          :releaseDate: '1983-05-16'
+          :name: Die with Your Boots On (2015 Remastered Version)
+          :isrc: GBCHB1500030
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164126'
+            :kind: song
+          :trackNumber: 4
+          :composerName: Adrian Smith, Bruce Dickinson & Steve Harris
+      - :id: '1147164127'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164127"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview41/v4/61/a0/13/61a013c7-b53e-c490-354b-9ba7fb815e35/mzaf_1061565875253301084.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/the-trooper-2015-remastered-version/1147164122?i=1147164127
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 252737
+          :releaseDate: '1983-05-16'
+          :name: The Trooper (2015 Remastered Version)
+          :isrc: GBCHB1500031
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164127'
+            :kind: song
+          :trackNumber: 5
+          :composerName: Steve Harris
+      - :id: '1147164128'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164128"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/f4/5c/68/f45c68e1-4e20-7a62-6ed0-2c60899a85ca/mzaf_4227773062038056185.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/still-life-2015-remastered-version/1147164122?i=1147164128
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 297009
+          :releaseDate: '1983-05-16'
+          :name: Still Life (2015 Remastered Version)
+          :isrc: GBCHB1500032
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164128'
+            :kind: song
+          :trackNumber: 6
+          :composerName: Steve Harris & David Murray
+      - :id: '1147164129'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164129"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/ba/52/54/ba52542b-ef72-7f12-fe27-9695f2b21774/mzaf_2989147379755681193.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/quest-for-fire-2015-remastered-version/1147164122?i=1147164129
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 222649
+          :releaseDate: '1983-05-16'
+          :name: Quest for Fire (2015 Remastered Version)
+          :isrc: GBCHB1500033
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164129'
+            :kind: song
+          :trackNumber: 7
+          :composerName: Steve Harris
+      - :id: '1147164130'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164130"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview22/v4/26/d1/53/26d15395-8160-4047-3ec9-f5c59938dfd2/mzaf_645221008153482179.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/sun-and-steel-2015-remastered-version/1147164122?i=1147164130
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 207509
+          :releaseDate: '1983-05-16'
+          :name: Sun and Steel (2015 Remastered Version)
+          :isrc: GBCHB1500034
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164130'
+            :kind: song
+          :trackNumber: 8
+          :composerName: Adrian Smith & Bruce Dickinson
+      - :id: '1147164791'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164791"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview22/v4/f5/7e/b3/f57eb336-8ded-ff9a-2268-c5f608c58dd4/mzaf_242543138644299814.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/to-tame-a-land-2015-remastered-version/1147164122?i=1147164791
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 448737
+          :releaseDate: '1983-05-16'
+          :name: To Tame a Land (2015 Remastered Version)
+          :isrc: GBCHB1500035
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164791'
+            :kind: song
+          :trackNumber: 9
+          :composerName: Steve Harris
+      :href: "/v1/catalog/us/albums/1147164122/tracks"

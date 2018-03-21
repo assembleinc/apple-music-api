@@ -1,0 +1,75 @@
+---
+:data:
+- :id: '976439543'
+  :type: apple-curators
+  :href: "/v1/catalog/us/apple-curators/976439543"
+  :attributes:
+    :url: https://itunes.apple.com/us/curator/apple-music-metal/976439543
+    :name: Apple Music Metal
+    :artwork:
+      :width: 1080
+      :height: 1080
+      :url: https://is4-ssl.mzstatic.com/image/thumb/Features7/v4/3e/b1/0f/3eb10fb5-a70b-16d6-b220-e1edca1e6996/pr_source.png/{w}x{h}bb.jpg
+      :bgColor: '252525'
+      :textColor1: f3f3f3
+      :textColor2: dadada
+      :textColor3: cacaca
+      :textColor4: b6b6b6
+    :editorialNotes:
+      :standard: "Metal is an ever-evolving journey of distorted guitars, huge orchestral
+        arrangements, howling vocals, and massive dose of aggression. Good luck pinning
+        down a definition; in metal, even the subgenres have subgenres. Born in the
+        late ’60s, metal has produced some of the most extreme sounds around. While
+        the genre is most commonly associated with loud and aggressive sounds, there
+        are other variations—sludge, avant-garde, drone, doom—that unfold in slower
+        waves of distorted guitars. Metal encompasses the Sunset Strip sleaze of Guns
+        ‘N Roses, the grindcore of Carcass, the funk-metal of Faith No More, the avant-garde
+        drone of Sunn 0))), the stadium-filling thrash of Metallica, and much more.
+        \n<br /><br />\nIf there was one band that drew the blueprint, it was Black
+        Sabbath. You can hear echoes of Sabbath in just about every metal band that
+        came after them, from Venom to Beartooth. The early ‘80s brought us Judas
+        Priest, Iron Maiden, and Motörhead—leaders of the New Wave of British Heavy
+        Metal. In the middle of the decade, many underground scenes developed—like
+        black, death, thrash—that continue to thrive today. It went from a cult following
+        to a massive audience with the thrash of the big four (Metallica, Slayer,
+        Megadeth, Anthrax), the hair metal of the late ‘80s (Mötley Crüe, Ozzy Osbourne)
+        the nu-metal of the ’90s (Korn, Limp Bizkit), metalcore of the ‘00s (Dillinger
+        Escape Plan, Killswitch Engage, Hatebreed), and the new bands of today. The
+        diversity is part of what makes metal so exciting. If you’re into banging
+        your head and loud guitars, then there’s a definitely metal band for you."
+      :short: 'Classic. Black. Death. Speed. Prog. Sludge. Doom. '
+  :relationships:
+    :playlists:
+      :data:
+      - :id: pl.8b9e2b7454d142b29c05f2cbfaeceac4
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.8b9e2b7454d142b29c05f2cbfaeceac4"
+      - :id: pl.a478eb7bcf944570a367822f6a1f8a8a
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.a478eb7bcf944570a367822f6a1f8a8a"
+      - :id: pl.2acc5200ae7648b79bb1a7f83f2f3356
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.2acc5200ae7648b79bb1a7f83f2f3356"
+      - :id: pl.61dc96899a764a929b9dd03e1bd77abc
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.61dc96899a764a929b9dd03e1bd77abc"
+      - :id: pl.bb9e7b4e58ed489aa076d38e22b96cca
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.bb9e7b4e58ed489aa076d38e22b96cca"
+      - :id: pl.721f9d573aae48c0918198b09657bca8
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.721f9d573aae48c0918198b09657bca8"
+      - :id: pl.aa0f40c8d4c9445cb31531503ef1c436
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.aa0f40c8d4c9445cb31531503ef1c436"
+      - :id: pl.51c1d571cc7b484eb1dead1939811f2d
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.51c1d571cc7b484eb1dead1939811f2d"
+      - :id: pl.df26d7ba73c64e27b05edd486c11d844
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.df26d7ba73c64e27b05edd486c11d844"
+      - :id: pl.481e5709e3954456aea1a5c050389a5f
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.481e5709e3954456aea1a5c050389a5f"
+      :href: "/v1/catalog/us/apple-curators/976439543/playlists"
+      :next: "/v1/catalog/us/apple-curators/976439543/playlists?offset=10"

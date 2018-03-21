@@ -1,0 +1,90 @@
+---
+:data:
+- :id: '546381'
+  :type: artists
+  :href: "/v1/catalog/us/artists/546381"
+  :attributes:
+    :genreNames:
+    - Metal
+    :url: https://itunes.apple.com/us/artist/iron-maiden/546381
+    :name: Iron Maiden
+  :relationships:
+    :albums:
+      :data:
+      - :id: '1282100956'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1282100956"
+      - :id: '1145992660'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1145992660"
+      - :id: '1143147520'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1143147520"
+      - :id: '1141571055'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1141571055"
+      - :id: '1141568371'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1141568371"
+      - :id: '1142266413'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142266413"
+      - :id: '1147141191'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1147141191"
+      - :id: '1147132343'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1147132343"
+      - :id: '1142259891'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142259891"
+      - :id: '1142244724'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142244724"
+      - :id: '1147140012'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1147140012"
+      - :id: '1142356188'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142356188"
+      - :id: '1147163459'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1147163459"
+      - :id: '1142260619'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142260619"
+      - :id: '1147136155'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1147136155"
+      - :id: '1142348275'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142348275"
+      - :id: '1248038513'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1248038513"
+      - :id: '1248063739'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1248063739"
+      - :id: '1247952869'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1247952869"
+      - :id: '1142357312'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142357312"
+      - :id: '1142349455'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142349455"
+      - :id: '1147155943'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1147155943"
+      - :id: '1142369145'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142369145"
+      - :id: '1147153443'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1147153443"
+      - :id: '1142262856'
+        :type: albums
+        :href: "/v1/catalog/us/albums/1142262856"
+      :href: "/v1/catalog/us/artists/546381/albums"
+      :next: "/v1/catalog/us/artists/546381/albums?offset=148"

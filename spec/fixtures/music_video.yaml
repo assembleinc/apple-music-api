@@ -1,0 +1,47 @@
+---
+:data:
+- :id: '1143672970'
+  :type: music-videos
+  :href: "/v1/catalog/us/music-videos/1143672970"
+  :attributes:
+    :previews:
+    - :url: http://video.itunes.apple.com/apple-assets-us-std-000001/Video128/v4/82/9a/f6/829af6aa-9649-997a-1149-64abcaba3aa1/mzvf_1837589226957850649.640x480.h264lc.U.p.m4v
+      :artwork:
+        :width: 640
+        :height: 480
+        :url: https://is4-ssl.mzstatic.com/image/thumb/Video51/v4/00/49/49/0049493a-c780-884f-2b00-5dbd9eb3ab13/GB0408601070.sca1.jpg/{w}x{h}bb.jpg
+        :bgColor: c5aea6
+        :textColor1: '020300'
+        :textColor2: '292418'
+        :textColor3: '292521'
+        :textColor4: 483f35
+    :artwork:
+      :width: 640
+      :height: 480
+      :url: https://is4-ssl.mzstatic.com/image/thumb/Video51/v4/00/49/49/0049493a-c780-884f-2b00-5dbd9eb3ab13/GB0408601070.sca1.jpg/{w}x{h}bb.jpg
+      :bgColor: c5aea6
+      :textColor1: '020300'
+      :textColor2: '292418'
+      :textColor3: '292521'
+      :textColor4: 483f35
+    :artistName: Iron Maiden
+    :url: https://itunes.apple.com/us/music-video/wasted-years/1143672970
+    :genreNames:
+    - Rock
+    :durationInMillis: 301780
+    :releaseDate: '2016-09-01'
+    :name: Wasted Years
+    :isrc: GB0408601070
+    :playParams:
+      :id: '1143672970'
+      :kind: musicVideo
+  :relationships:
+    :albums:
+      :data: []
+      :href: "/v1/catalog/us/music-videos/1143672970/albums"
+    :artists:
+      :data:
+      - :id: '546381'
+        :type: artists
+        :href: "/v1/catalog/us/artists/546381"
+      :href: "/v1/catalog/us/music-videos/1143672970/artists"

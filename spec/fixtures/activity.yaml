@@ -1,0 +1,54 @@
+---
+:data:
+- :id: '976439514'
+  :type: activities
+  :href: "/v1/catalog/us/activities/976439514"
+  :attributes:
+    :editorialNotes:
+      :short: Get it started.
+    :name: Party
+    :artwork:
+      :width: 1080
+      :height: 1080
+      :url: https://is3-ssl.mzstatic.com/image/thumb/Features127/v4/d9/24/6f/d9246fdc-69a4-7c7c-bc1f-06a2d7aae43c/pr_source.png/{w}x{h}bb.jpg
+      :bgColor: fff3ab
+      :textColor1: '541621'
+      :textColor2: 3d2d09
+      :textColor3: 76423c
+      :textColor4: '645529'
+    :url: https://itunes.apple.com/us/activity/party/976439514
+  :relationships:
+    :playlists:
+      :data:
+      - :id: pl.88bc653184544ac5a3c88b4e92f8199d
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.88bc653184544ac5a3c88b4e92f8199d"
+      - :id: pl.2d4d74790f074233b82d07bfae5c219c
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.2d4d74790f074233b82d07bfae5c219c"
+      - :id: pl.b477839538364c8db8f3950e13731ecc
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.b477839538364c8db8f3950e13731ecc"
+      - :id: pl.f4d106fed2bd41149aaacabb233eb5eb
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.f4d106fed2bd41149aaacabb233eb5eb"
+      - :id: pl.91bb14d8ee10414e8fda8fb71f56db03
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.91bb14d8ee10414e8fda8fb71f56db03"
+      - :id: pl.5030c32a73e9459d82fae6f7b046d3ec
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.5030c32a73e9459d82fae6f7b046d3ec"
+      - :id: pl.463c885fdf8b4745881901cc4b912357
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.463c885fdf8b4745881901cc4b912357"
+      - :id: pl.5ee8333dbe944d9f9151e97d92d1ead9
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.5ee8333dbe944d9f9151e97d92d1ead9"
+      - :id: pl.6bf4415b83ce4f3789614ac4c3675740
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.6bf4415b83ce4f3789614ac4c3675740"
+      - :id: pl.6ce2df480c9d4eed81115f9c003ac55c
+        :type: playlists
+        :href: "/v1/catalog/us/playlists/pl.6ce2df480c9d4eed81115f9c003ac55c"
+      :href: "/v1/catalog/us/activities/976439514/playlists"
+      :next: "/v1/catalog/us/activities/976439514/playlists?offset=10"

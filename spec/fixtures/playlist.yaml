@@ -1,0 +1,696 @@
+---
+:data:
+- :id: pl.f21725bd35114c5fba17978b8793e5fd
+  :type: playlists
+  :href: "/v1/catalog/us/playlists/pl.f21725bd35114c5fba17978b8793e5fd"
+  :attributes:
+    :playlistType: editorial
+    :name: 'Metal Wars: Iron Maiden vs. Judas Priest'
+    :playParams:
+      :id: pl.f21725bd35114c5fba17978b8793e5fd
+      :kind: playlist
+    :curatorName: Apple Music Metal
+    :artwork:
+      :width: 4320
+      :height: 1080
+      :url: https://is3-ssl.mzstatic.com/image/thumb/Features71/v4/4d/5c/88/4d5c88cf-0f40-3922-b608-254848093076/source/{w}x{h}cc.jpg
+      :bgColor: 0e0f12
+      :textColor1: ffffff
+      :textColor2: fcd0af
+      :textColor3: cececf
+      :textColor4: cca98f
+    :lastModifiedDate: '2015-12-03T21:28:03Z'
+    :url: https://itunes.apple.com/us/playlist/metal-wars-iron-maiden-vs-judas-priest/pl.f21725bd35114c5fba17978b8793e5fd
+    :description:
+      :standard: Ever since Judas Priest and Iron Maiden kick-started the New Wave
+        of British Heavy Metal, fans have been debating each band's powers. While
+        Priest unleashes biker attitude and dueling guitar harmonies, Maiden pushes
+        its fantastical power metal to the brink of pure punk. In the end, operatic
+        frontmen Rob Halford and Bruce Dickinson clash on the front lines in this
+        fight for metal supremacy.
+      :short: This matchup of indisputable anthems is every headbanger's ultimate
+        dilemma.
+  :relationships:
+    :tracks:
+      :data:
+      - :id: '1147167086'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147167086"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/19/0e/d2/190ed2bc-d6c1-4135-5a5a-a1d8843eba8b/mzaf_8689420867257185274.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/d8/ed/45/d8ed4503-b1f6-1f04-0121-eca25ac64d72/source/{w}x{h}bb.jpg
+            :bgColor: 110f10
+            :textColor1: dfcd7a
+            :textColor2: cdbb72
+            :textColor3: b6a765
+            :textColor4: a8995e
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/iron-maiden-2015-remastered-version/1147166991?i=1147167086
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 214356
+          :releaseDate: '1980-04-14'
+          :name: Iron Maiden (2015 Remastered Version)
+          :isrc: GBCHB1500008
+          :albumName: Iron Maiden (2015 Remastered Edition)
+          :playParams:
+            :id: '1147167086'
+            :kind: song
+          :trackNumber: 8
+          :composerName: Steve Harris
+      - :id: '207346631'
+        :type: songs
+        :href: "/v1/catalog/us/songs/207346631"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/e7/04/0c/mzm.vbujsafv.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1487
+            :url: https://is2-ssl.mzstatic.com/image/thumb/Music/v4/2e/3e/b2/2e3eb25c-9d7a-253c-b21e-5e5c6a725174/source/{w}x{h}bb.jpg
+            :bgColor: '000000'
+            :textColor1: fbf1e5
+            :textColor2: e6885a
+            :textColor3: c9c0b7
+            :textColor4: b86d48
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/tyrant-live/207346224?i=207346631
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Hard Rock
+          - Arena Rock
+          :durationInMillis: 272733
+          :releaseDate: '1979-01-01'
+          :name: Tyrant (Live)
+          :isrc: GBBBN0102378
+          :albumName: Unleashed In the East (Live)
+          :playParams:
+            :id: '207346631'
+            :kind: song
+          :trackNumber: 9
+          :composerName: Rob Halford & Glenn Tipton
+      - :id: '1147158984'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147158984"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/a1/d9/fb/a1d9fbb4-78a1-7201-7eca-82152dc13285/mzaf_7276104329887766043.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music22/v4/f9/fb/46/f9fb4653-02df-521b-7a0a-f24400908265/source/{w}x{h}bb.jpg
+            :bgColor: '171612'
+            :textColor1: cdbd76
+            :textColor2: cab785
+            :textColor3: a99b62
+            :textColor4: a6976e
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/wrathchild-2015-remastered-version/1147158978?i=1147158984
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 175059
+          :releaseDate: '1981-02-02'
+          :name: Wrathchild (2015 Remastered Version)
+          :isrc: GBCHB1500010
+          :albumName: Killers (2015 Remastered Edition)
+          :playParams:
+            :id: '1147158984'
+            :kind: song
+          :trackNumber: 2
+          :composerName: Steve Harris
+      - :id: '217052912'
+        :type: songs
+        :href: "/v1/catalog/us/songs/217052912"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/ac/93/7d/mzm.vhezntfy.aac.p.m4a
+          :artwork:
+            :width: 600
+            :height: 600
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music/v4/ae/36/cb/ae36cba2-ec76-3297-476f-8e9ad6b740f2/source/{w}x{h}bb.jpg
+            :bgColor: 111e17
+            :textColor1: f7dfbf
+            :textColor2: e4d1ae
+            :textColor3: c9b99e
+            :textColor4: baad90
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/starbreaker/217052098?i=217052912
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Arena Rock
+          :durationInMillis: 287973
+          :releaseDate: '1977-01-01'
+          :name: Starbreaker
+          :isrc: GBBBN0102345
+          :albumName: Sin After Sin
+          :playParams:
+            :id: '217052912'
+            :kind: song
+          :trackNumber: 3
+          :composerName: Glenn Tipton, Rob Halford & K.K. Downing
+      - :id: '1147165821'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147165821"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/95/81/b9/9581b92f-e226-7cf7-0dcd-c81533eb4aad/mzaf_9130087604066650722.plus.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1500
+            :url: https://is4-ssl.mzstatic.com/image/thumb/Music117/v4/7e/9d/76/7e9d7631-7f34-1fca-a657-1787faa7ab68/source/{w}x{h}bb.jpg
+            :bgColor: 191d1c
+            :textColor1: fefeff
+            :textColor2: d4d1d2
+            :textColor3: d0d0d1
+            :textColor4: aeadae
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/the-number-of-the-beast-2015-remastered-version/1147165685?i=1147165821
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 290584
+          :releaseDate: '1982-03-22'
+          :name: The Number of the Beast (2015 Remastered Version)
+          :isrc: GBCHB1500023
+          :albumName: The Number of the Beast (2015 Remastered Edition)
+          :playParams:
+            :id: '1147165821'
+            :kind: song
+          :trackNumber: 5
+          :composerName: Steve Harris
+      - :id: '207178401'
+        :type: songs
+        :href: "/v1/catalog/us/songs/207178401"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview128/v4/a7/05/d8/a705d8db-080a-9943-326f-43f0d0536dac/mzaf_4097978741442160181.plus.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1487
+            :url: https://is2-ssl.mzstatic.com/image/thumb/Music4/v4/df/c7/89/dfc7898f-5f3c-5a9d-e986-0b5fbf862d47/source/{w}x{h}bb.jpg
+            :bgColor: f7c40b
+            :textColor1: '090d10'
+            :textColor2: 0d1312
+            :textColor3: 38320f
+            :textColor4: 3c3611
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/youve-got-another-thing-comin/207178130?i=207178401
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Arena Rock
+          - Hard Rock
+          :durationInMillis: 310067
+          :releaseDate: '1982-07-17'
+          :name: You've Got Another Thing Comin'
+          :isrc: GBBBN8202007
+          :albumName: Screaming for Vengeance
+          :playParams:
+            :id: '207178401'
+            :kind: song
+          :trackNumber: 8
+          :composerName: Glenn Tipton, Rob Halford & K.K. Downing
+      - :id: '1147164124'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164124"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/e2/bb/12/e2bb1207-e404-527c-6a4f-9048bf2f2209/mzaf_5087186791157056510.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/revelations-2015-remastered-version/1147164122?i=1147164124
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 409632
+          :releaseDate: '1983-05-16'
+          :name: Revelations (2015 Remastered Version)
+          :isrc: GBCHB1500028
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164124'
+            :kind: song
+          :trackNumber: 2
+          :composerName: Bruce Dickinson
+      - :id: '207346409'
+        :type: songs
+        :href: "/v1/catalog/us/songs/207346409"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/be/e4/54/mzm.trrhuzns.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1487
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music/v4/7f/9a/db/7f9adbfc-b525-25dd-df58-c24673325cf6/source/{w}x{h}bb.jpg
+            :bgColor: '000000'
+            :textColor1: fdfaf5
+            :textColor2: df9142
+            :textColor3: cac8c4
+            :textColor4: b37434
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/beyond-the-realms-of-death/207346308?i=207346409
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Hard Rock
+          - Arena Rock
+          :durationInMillis: 409800
+          :releaseDate: '1979-04-27'
+          :name: Beyond the Realms of Death
+          :isrc: GBBBN0102358
+          :albumName: Stained Class
+          :playParams:
+            :id: '207346409'
+            :kind: song
+          :trackNumber: 8
+          :composerName: Rob Halford & Les Binks
+      - :id: '1147170347'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147170347"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview22/v4/84/b7/3c/84b73c60-9f33-41c5-0c4c-f758319714d3/mzaf_4233231271847100652.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is4-ssl.mzstatic.com/image/thumb/Music22/v4/90/20/7d/90207d39-2987-0bf4-be08-284f3f56c34e/source/{w}x{h}bb.jpg
+            :bgColor: d4985c
+            :textColor1: '080401'
+            :textColor2: '050509'
+            :textColor3: '312213'
+            :textColor4: 2f2319
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/2-minutes-to-midnight-2015-remastered-version/1147170341?i=1147170347
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 363584
+          :releaseDate: '1984-08-06'
+          :name: 2 Minutes to Midnight (2015 Remastered Version)
+          :isrc: GBCHB1500037
+          :albumName: Powerslave (2015 Remastered Edition)
+          :playParams:
+            :id: '1147170347'
+            :kind: song
+          :trackNumber: 2
+          :composerName: Adrian Smith & Bruce Dickinson
+      - :id: '193031636'
+        :type: songs
+        :href: "/v1/catalog/us/songs/193031636"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/v4/f4/c1/16/f4c1166e-5080-152b-3233-29c5a541d4b0/mzaf_4610227881221510844.plus.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1500
+            :url: https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/0e/21/7c/0e217c0f-a515-9d1a-370c-7fbd62398365/source/{w}x{h}bb.jpg
+            :bgColor: 0a0c0b
+            :textColor1: fdf0d0
+            :textColor2: dedee0
+            :textColor3: ccc2a8
+            :textColor4: b3b3b5
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/running-wild/193031416?i=193031636
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Hard Rock
+          - Arena Rock
+          :durationInMillis: 177800
+          :releaseDate: '1978-10-09'
+          :name: Running Wild
+          :isrc: GBBBN0102367
+          :albumName: Hell Bent for Leather
+          :playParams:
+            :id: '193031636'
+            :kind: song
+          :trackNumber: 9
+          :composerName: Glenn Tipton
+      - :id: '1147168624'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147168624"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/47/cc/06/47cc067f-89d1-abd6-5b2a-e20a16177e9e/mzaf_5181100847554139257.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is5-ssl.mzstatic.com/image/thumb/Music22/v4/06/2d/57/062d57b9-2f02-ba57-7d02-51ff1183d46b/source/{w}x{h}bb.jpg
+            :bgColor: '030612'
+            :textColor1: f3ef84
+            :textColor2: 2388ef
+            :textColor3: c3c06d
+            :textColor4: 1d6ec3
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/fear-of-the-dark/1147168602?i=1147168624
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 438114
+          :releaseDate: '1992-05-11'
+          :name: Fear of the Dark
+          :isrc: GBCHB1500099
+          :albumName: Fear of the Dark
+          :playParams:
+            :id: '1147168624'
+            :kind: song
+          :trackNumber: 12
+          :composerName: Steve Harris
+      - :id: '207346327'
+        :type: songs
+        :href: "/v1/catalog/us/songs/207346327"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/0a/f4/35/mzm.gpxfuhlp.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1487
+            :url: https://is1-ssl.mzstatic.com/image/thumb/Music/v4/bf/1b/f4/bf1bf46a-e1b2-2fa2-f1b2-acf70bb7c59c/source/{w}x{h}bb.jpg
+            :bgColor: '011315'
+            :textColor1: f9dc09
+            :textColor2: efa025
+            :textColor3: c7b40b
+            :textColor4: bf8422
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/desert-plains/207346167?i=207346327
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Arena Rock
+          - Hard Rock
+          :durationInMillis: 274867
+          :releaseDate: '1981-02-17'
+          :name: Desert Plains
+          :isrc: GBBBN8102004
+          :albumName: Point of Entry
+          :playParams:
+            :id: '207346327'
+            :kind: song
+          :trackNumber: 5
+          :composerName: Glenn Tipton, Rob Halford & K.K. Downing
+      - :id: '1147156889'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147156889"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview22/v4/f5/08/75/f508753e-7c7c-bbcd-8577-c5b48620de1c/mzaf_3269589466073366717.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/32/33/d5/3233d5b8-a253-e88f-8cc6-8397d4344099/source/{w}x{h}bb.jpg
+            :bgColor: '010006'
+            :textColor1: f5f0f1
+            :textColor2: fed2d9
+            :textColor3: c4c0c2
+            :textColor4: cba8af
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/bring-your-daughter-to-slaughter-2015-remastered-version/1147156879?i=1147156889
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 283694
+          :releaseDate: '1990-10-01'
+          :name: Bring Your Daughter...To the Slaughter (2015 Remastered Version)
+          :isrc: GBCHB1500086
+          :albumName: No Prayer for the Dying (2015 Remastered Edition)
+          :playParams:
+            :id: '1147156889'
+            :kind: song
+          :trackNumber: 9
+          :composerName: Bruce Dickinson
+      - :id: '207346225'
+        :type: songs
+        :href: "/v1/catalog/us/songs/207346225"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/aa/6f/b9/mzm.agziyrcf.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1500
+            :url: https://is2-ssl.mzstatic.com/image/thumb/Music4/v4/0d/ca/94/0dca9463-db8d-c81a-f165-208446f8f4e6/source/{w}x{h}bb.jpg
+            :bgColor: 010e07
+            :textColor1: f2f5f4
+            :textColor2: f6f5df
+            :textColor3: c2c6c4
+            :textColor4: c5c7b4
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/breaking-the-law/207346194?i=207346225
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Arena Rock
+          - Hard Rock
+          :durationInMillis: 153840
+          :releaseDate: '1980-04-14'
+          :name: Breaking the Law
+          :isrc: GBBBN8000007
+          :albumName: British Steel
+          :playParams:
+            :id: '207346225'
+            :kind: song
+          :trackNumber: 3
+          :composerName: Glenn Tipton, Rob Halford & K.K. Downing
+      - :id: '1247952872'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1247952872"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview117/v4/54/e8/46/54e8467e-3e54-5008-405c-abbf8062e1d1/mzaf_287225089975499890.plus.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1500
+            :url: https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/15/f7/71/15f77117-2f47-c840-edf1-3105d48c5399/source/{w}x{h}bb.jpg
+            :bgColor: '575598'
+            :textColor1: fdfcfa
+            :textColor2: a2c5ef
+            :textColor3: dcdae6
+            :textColor4: 93aede
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/the-wicker-man-2015-remastered-version/1247952869?i=1247952872
+          :discNumber: 1
+          :genreNames:
+          - Rock
+          - Music
+          :durationInMillis: 275237
+          :releaseDate: '2000-05-08'
+          :name: The Wicker Man (2015 Remastered Version)
+          :isrc: GB5KW1701404
+          :albumName: Brave New World (2015 Remastered Version)
+          :playParams:
+            :id: '1247952872'
+            :kind: song
+          :trackNumber: 1
+      - :id: '207178146'
+        :type: songs
+        :href: "/v1/catalog/us/songs/207178146"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/34/40/0c/mzm.zwsjnifi.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1487
+            :url: https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/79/74/4a/79744a3a-ce27-bbf9-1be4-42858be74631/source/{w}x{h}bb.jpg
+            :bgColor: '01081a'
+            :textColor1: fbd63c
+            :textColor2: d8acae
+            :textColor3: c9ad35
+            :textColor4: ad8b90
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/freewheel-burning/207178131?i=207178146
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Arena Rock
+          - Hard Rock
+          :durationInMillis: 264360
+          :releaseDate: '1984-01-04'
+          :name: Freewheel Burning
+          :isrc: GBBBN8400009
+          :albumName: Defenders of the Faith
+          :playParams:
+            :id: '207178146'
+            :kind: song
+          :trackNumber: 1
+          :composerName: Glenn Tipton, Rob Halford & K.K. Downing
+      - :id: '1145993093'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1145993093"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/34/51/88/34518899-0e2a-db63-9a50-a870577a0dc6/mzaf_1555505486559486189.plus.aac.p.m4a
+          :artwork:
+            :width: 2400
+            :height: 2400
+            :url: https://is4-ssl.mzstatic.com/image/thumb/Music62/v4/16/ab/c8/16abc82a-8956-3b43-3a1c-2a0cda8a00e0/source/{w}x{h}bb.jpg
+            :bgColor: '000000'
+            :textColor1: ffffff
+            :textColor2: f5d1b4
+            :textColor3: cbcbcb
+            :textColor4: c4a790
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/shadows-of-the-valley/1145992660?i=1145993093
+          :discNumber: 2
+          :genreNames:
+          - Rock
+          - Music
+          :durationInMillis: 452472
+          :releaseDate: '2015-09-04'
+          :name: Shadows of the Valley
+          :isrc: GBCHB1500225
+          :albumName: The Book of Souls
+          :playParams:
+            :id: '1145993093'
+            :kind: song
+          :trackNumber: 2
+          :composerName: Janick Gers & Steve Harris
+      - :id: '875864081'
+        :type: songs
+        :href: "/v1/catalog/us/songs/875864081"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music4/v4/50/24/54/502454fa-ae80-a94b-2885-114f8078985e/mzaf_940529157231215668.plus.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1500
+            :url: https://is1-ssl.mzstatic.com/image/thumb/Music/v4/4e/48/12/4e48128b-a829-7200-e104-59decd4f7468/source/{w}x{h}bb.jpg
+            :bgColor: 14131b
+            :textColor1: f3df6f
+            :textColor2: fbd89a
+            :textColor3: c6b65e
+            :textColor4: cdb181
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/dragonaut/875864069?i=875864081
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 266267
+          :releaseDate: '2006-04-11'
+          :name: Dragonaut
+          :isrc: GBARL1400246
+          :albumName: Redeemer of Souls (Deluxe Version)
+          :playParams:
+            :id: '875864081'
+            :kind: song
+          :trackNumber: 1
+          :composerName: Glenn Tipton, Rob Halford & Richie Faulkner
+      - :id: '1147164127'
+        :type: songs
+        :href: "/v1/catalog/us/songs/1147164127"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview41/v4/61/a0/13/61a013c7-b53e-c490-354b-9ba7fb815e35/mzaf_1061565875253301084.plus.aac.p.m4a
+          :artwork:
+            :width: 1425
+            :height: 1425
+            :url: https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/8e/87/49/8e8749c5-a06d-3f97-978e-08ca147c3629/source/{w}x{h}bb.jpg
+            :bgColor: 18150c
+            :textColor1: fbfcf7
+            :textColor2: dcd752
+            :textColor3: cdcec8
+            :textColor4: b5b044
+          :artistName: Iron Maiden
+          :url: https://itunes.apple.com/us/album/the-trooper-2015-remastered-version/1147164122?i=1147164127
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          :durationInMillis: 252737
+          :releaseDate: '1983-05-16'
+          :name: The Trooper (2015 Remastered Version)
+          :isrc: GBCHB1500031
+          :albumName: Piece of Mind (2015 Remastered Edition)
+          :playParams:
+            :id: '1147164127'
+            :kind: song
+          :trackNumber: 5
+          :composerName: Steve Harris
+      - :id: '193031447'
+        :type: songs
+        :href: "/v1/catalog/us/songs/193031447"
+        :attributes:
+          :previews:
+          - :url: https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/v4/db/a8/bb/dba8bb28-c3a4-0ec4-7a31-e9d0464ea6e4/mzaf_561872546168538532.plus.aac.p.m4a
+          :artwork:
+            :width: 1500
+            :height: 1500
+            :url: https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/0e/21/7c/0e217c0f-a515-9d1a-370c-7fbd62398365/source/{w}x{h}bb.jpg
+            :bgColor: 0a0c0b
+            :textColor1: fdf0d0
+            :textColor2: dedee0
+            :textColor3: ccc2a8
+            :textColor4: b3b3b5
+          :artistName: Judas Priest
+          :url: https://itunes.apple.com/us/album/hell-bent-for-leather/193031416?i=193031447
+          :discNumber: 1
+          :genreNames:
+          - Metal
+          - Music
+          - Rock
+          - Hard Rock
+          - Arena Rock
+          :durationInMillis: 160867
+          :releaseDate: '1978-10-09'
+          :name: Hell Bent for Leather
+          :isrc: GBBBN0102363
+          :albumName: Hell Bent for Leather
+          :playParams:
+            :id: '193031447'
+            :kind: song
+          :trackNumber: 4
+          :composerName: Glenn Tipton
+      :href: "/v1/catalog/us/playlists/pl.f21725bd35114c5fba17978b8793e5fd/tracks"
+    :curator:
+      :data:
+      - :id: '976439543'
+        :type: apple-curators
+        :href: "/v1/catalog/us/apple-curators/976439543"
+      :href: "/v1/catalog/us/playlists/pl.f21725bd35114c5fba17978b8793e5fd/curator"
