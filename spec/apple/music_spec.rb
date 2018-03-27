@@ -13,7 +13,7 @@ RSpec.shared_examples 'it has artwork' do |_|
 end
 
 RSpec.describe Apple::Music do
-  it "has a version number" do
+  it 'has a version number' do
     expect(Apple::Music::VERSION).not_to be nil
   end
 end
@@ -23,7 +23,6 @@ RSpec.describe Apple::Music::Error do
 end
 
 RSpec.describe Apple::Music::Artist do
-
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Artist
 
   # context "since the artist fixtures were last updated" do
@@ -37,52 +36,54 @@ RSpec.describe Apple::Music::Artist do
 end
 
 RSpec.describe Apple::Music::Album do
+  it_behaves_like 'formattable', %i[ name url artist_name description
+                                     description_short artwork_url tracks ] do
+    let(:client) { get_configured_client! }
+    let(:object) do
+      Apple::Music::Album.new(load_fixture('album').to_h[:data].first,
+                                 {}, client)
+    end
+  end
 
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Album
-  it_behaves_like 'chris_format', Apple::Music::Album
-
 end
 
 RSpec.describe Apple::Music::Activity do
-
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Activity
-
 end
 
 RSpec.describe Apple::Music::Chart do
-
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Chart
-
 end
 
 RSpec.describe Apple::Music::AppleCurator do
-
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::AppleCurator
-
 end
 
 RSpec.describe Apple::Music::Genre do
-
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Genre
-
 end
 
 RSpec.describe Apple::Music::Curator do
-
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Curator
-
 end
 
 RSpec.describe Apple::Music::MusicVideo do
-
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::MusicVideo
-
 end
 
 RSpec.describe Apple::Music::Playlist do
+  it_behaves_like 'formattable', %i[ name url description description_short
+                                     artwork_url tracks curator_name
+                                     curator_url ] do
+    let(:client) { get_configured_client! }
+    let(:object) do
+      Apple::Music::Playlist.new(load_fixture('playlist').to_h[:data].first,
+                                 {}, client)
+    end
+  end
 
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Playlist
-  # it_behaves_like 'chris_format', Apple::Music::Playlist
 
   ### Can get a description from a playlist
   # @playlist.description
@@ -119,20 +120,24 @@ RSpec.describe Apple::Music::Playlist do
 
   ### Can get a curator_url from a playlist
   # @playlist.curator.url
-
 end
 
 RSpec.describe Apple::Music::Song do
+  it_behaves_like 'formattable', %i[ id name artist_name artwork_url genres
+                                     explicit preview url duration track_number
+                                     is_preorder ] do
+    let(:client) { get_configured_client! }
+    let(:object) do
+      Apple::Music::Song.new(load_fixture('song').to_h[:data].first,
+                                 {}, client)
+    end
+  end
 
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Song
-  # it_behaves_like 'chris_format', Apple::Music::Song
-
 end
 
 RSpec.describe Apple::Music::Station do
-
   # it_behaves_like 'it inherits from Apple::Music::Base', Apple::Music::Station
-
 end
 
 RSpec.describe Apple::Music::Storefront do

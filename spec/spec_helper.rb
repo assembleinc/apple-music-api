@@ -33,97 +33,20 @@ def get_configured_client!
   Apple::Music::Client.new
 end
 
-RSpec.shared_examples 'chris_format' do |model, instance|
-  case model
-  when Apple::Music::Playlist
-    ### Can get a formatted version of Playlist
-    # @playlist.formatted
+RSpec.shared_examples 'formattable' do |attributes|
+  context 'Ocelot dependency' do
+    describe '#formatted' do
+      let(:formatted) { object.formatted }
 
-    ### Then can get Playlist Name
-    # @playlist.formatted[:name]
+      it 'can get a formatted version of an object' do
+        expect(formatted).to be_an_instance_of Hash
+      end
 
-    ### Then can get Playlist Url
-    # @playlist.formatted[:url]
-
-    ### Then can get Playlist Description
-    # @playlist.formatted[:description]
-
-    ### Then can get Playlist Description Short
-    # @playlist.formatted[:description_short]
-
-    ### Then can get Playlist Artwork Url
-    # @playlist.formatted[:artwork_url]
-
-    ### Then can get Playlist Tracks
-    # @playlist.formatted[:tracks]
-
-    ### Then can get Playlist Curator Name
-    # @playlist.formatted[:curator_name]
-
-    ### Then can get Playlist Curator Url
-    # @playlist.formatted[:curator_url]
-
-  when Apple::Music::Album
-    ### Can get a formatted version of Album
-    # @album.formatted
-
-    ### Then can get Album Name
-    # @album.formatted[:name]
-
-    ### Then can get Album Url
-    # @album.formatted[:url]
-
-    ### Then can get Album Artist_name
-    # @album.formatted[:artist_name]
-
-    ### Then can get Album Description
-    # @album.formatted[:description]
-
-    ### Then can get Album Description Short
-    # @album.formatted[:description_short]
-
-    ### Then can get Album Artwork_url
-    # @album.formatted[:artwork_url]
-
-    ### Then can get Album Tracks
-    # @album.formatted[:tracks]
-
-  when Apple::Music::Song
-    ### Can get a formatted version of Song
-    # @song.formatted
-
-    ### Then can get Song Id
-    # @song.formatted[:id]
-
-    ### Then can get Song Name
-    # @song.formatted[:name]
-
-    ### Then can get Song Artist Name
-    # @song.formatted[:artist_name]
-
-    ### Then can get Song Artwork Url
-    # @song.formatted[:artwork_url]
-
-    ### Then can get Song Genres
-    # @song.formatted[:genres]
-
-    ### Then can get Song Explicit
-    # @song.formatted[:explicit]
-
-    ### Then can get Song Preview
-    # @song.formatted[:preview]
-
-    ### Then can get Song Url
-    # @song.formatted[:url]
-
-    ### Then can get Song Duration
-    # @song.formatted[:duration]
-
-    ### Then can get Song Track Number
-    # @song.formatted[:track_number]
-
-    ### Then can get Song Is_preorder
-    # @song.formatted[:is_preorder]
-
+      attributes.each do |attribute|
+        it "contains #{attribute}" do
+          expect(formatted[attribute]).not_to be nil
+        end
+      end
+    end
   end
 end
