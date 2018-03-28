@@ -19,10 +19,12 @@ RSpec.shared_examples 'it inherits from Apple::Music::Base' do
 
     it 'has a type' do
       expect(object).to respond_to :type
+      expect(object.type).to be_an_instance_of String
     end
 
     it 'has relationships' do
       expect(object).to respond_to :relationships
+      expect(object.relationships).to be_an_instance_of Hash
     end
 
     it 'has a meta attributes' do
