@@ -4,7 +4,7 @@ require 'pry'
 
 RSpec.describe Apple::Music::Client do
   before :each do
-    @client = get_configured_client!
+    @client = configured_client!
   end
 
   describe '#search' do

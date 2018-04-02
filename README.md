@@ -38,8 +38,3 @@ All JSON Schemas in this project were generated with `generate-schema` hosted on
 
 Contact Chris (chris@inkstonehq.com)
 Melissa (melissa@inkstonehq.com)
-
-## stuff
-
-+ run `client = load_client` to easily create
-+ run `reload!` to reload code

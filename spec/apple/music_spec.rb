@@ -1,6 +1,6 @@
-require "spec_helper"
-require "yaml"
-require "pry"
+require 'spec_helper'
+require 'yaml'
+require 'pry'
 
 RSpec.shared_examples 'it inherits from Apple::Music::Base' do
   describe '#attributes' do
@@ -54,10 +54,53 @@ RSpec.shared_examples 'it inherits from Apple::Music::Base' do
   end
 end
 
-RSpec.shared_examples 'it has tracks' do |_|
+RSpec.shared_examples 'it has tracks' do
+  describe '#tracks' do
+    let(:tracks) { object.tracks }
+    let(:track_count) { object.tracks.count }
+
+    it 'has tracks' do
+      expect(tracks).to be_an_instance_of Apple::Music::Relation::Tracks
+    end
+
+    it 'can get track count' do
+      expect(track_count).to be >= 0
+    end
+
+    it 'can iterate over tracks' do
+      count = 0
+
+      tracks.each do |track|
+        count += 1
+        expect(track).to be_an_instance_of Apple::Music::Song
+      end
+
+      expect(count).to be == track_count
+    end
+
+    it 'can iterate over tracks with index' do
+      tracks.each_with_index do |track, index|
+        expect(track).to be_an_instance_of Apple::Music::Song
+        expect(track_count).to be >= index
+      end
+    end
+  end
 end
 
-RSpec.shared_examples 'it has artwork' do |_|
+RSpec.shared_examples 'it has artwork' do
+  describe '#artwork' do
+    it 'has artwork' do
+      expect(object.artwork).to be_an_instance_of Apple::Music::Artwork
+    end
+
+    it 'has a raw url' do
+      expect(object.artwork.raw_url).to be_an_instance_of String
+    end
+
+    it 'has a url' do
+      expect(object.artwork.url).to be_an_instance_of String
+    end
+  end
 end
 
 RSpec.describe Apple::Music do
@@ -71,10 +114,10 @@ RSpec.describe Apple::Music::Error do
 end
 
 RSpec.describe Apple::Music::Artist do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::Artist.new(load_fixture('artist').to_h[:data].first,
-                            {}, client)
+                             {}, client)
   end
 
   it_behaves_like 'it inherits from Apple::Music::Base'
@@ -90,7 +133,7 @@ RSpec.describe Apple::Music::Artist do
 end
 
 RSpec.describe Apple::Music::Album do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::Album.new(load_fixture('album').to_h[:data].first,
                             {}, client)
@@ -100,20 +143,22 @@ RSpec.describe Apple::Music::Album do
                                      description_short artwork_url tracks ]
 
   it_behaves_like 'it inherits from Apple::Music::Base'
+  it_behaves_like 'it has artwork'
+  it_behaves_like 'it has tracks'
 end
 
 RSpec.describe Apple::Music::Activity do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::Activity.new(load_fixture('activity').to_h[:data].first,
-                            {}, client)
+                               {}, client)
   end
 
   it_behaves_like 'it inherits from Apple::Music::Base'
 end
 
 RSpec.describe Apple::Music::Chart do
-  # let(:client) { get_configured_client! }
+  # let(:client) { configured_client! }
   # let(:object) do
   #   Apple::Music::Chart.new(load_fixture('chart').to_h[:data].first,
   #                           {}, client)
@@ -123,17 +168,17 @@ RSpec.describe Apple::Music::Chart do
 end
 
 RSpec.describe Apple::Music::AppleCurator do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::AppleCurator.new(load_fixture('apple_curator').to_h[:data].first,
-                            {}, client)
+                                   {}, client)
   end
 
   it_behaves_like 'it inherits from Apple::Music::Base'
 end
 
 RSpec.describe Apple::Music::Genre do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::Genre.new(load_fixture('genre').to_h[:data].first,
                             {}, client)
@@ -143,27 +188,27 @@ RSpec.describe Apple::Music::Genre do
 end
 
 RSpec.describe Apple::Music::Curator do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::Curator.new(load_fixture('curator').to_h[:data].first,
-                            {}, client)
+                              {}, client)
   end
 
   it_behaves_like 'it inherits from Apple::Music::Base'
 end
 
 RSpec.describe Apple::Music::MusicVideo do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::MusicVideo.new(load_fixture('music_video').to_h[:data].first,
-                            {}, client)
+                                 {}, client)
   end
 
   it_behaves_like 'it inherits from Apple::Music::Base'
 end
 
 RSpec.describe Apple::Music::Playlist do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::Playlist.new(load_fixture('playlist').to_h[:data].first,
                                {}, client)
@@ -174,6 +219,8 @@ RSpec.describe Apple::Music::Playlist do
                                      curator_url ]
 
   it_behaves_like 'it inherits from Apple::Music::Base'
+  it_behaves_like 'it has artwork'
+  it_behaves_like 'it has tracks'
 
   ### Can get a description from a playlist
   # @playlist.description
@@ -213,7 +260,7 @@ RSpec.describe Apple::Music::Playlist do
 end
 
 RSpec.describe Apple::Music::Song do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::Song.new(load_fixture('song').to_h[:data].first,
                            {}, client)
@@ -224,13 +271,14 @@ RSpec.describe Apple::Music::Song do
                                      is_preorder ]
 
   it_behaves_like 'it inherits from Apple::Music::Base'
+  it_behaves_like 'it has artwork'
 end
 
 RSpec.describe Apple::Music::Station do
-  let(:client) { get_configured_client! }
+  let(:client) { configured_client! }
   let(:object) do
     Apple::Music::Station.new(load_fixture('station').to_h[:data].first,
-                            {}, client)
+                              {}, client)
   end
 
   it_behaves_like 'it inherits from Apple::Music::Base'

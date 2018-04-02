@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
-require "apple/music"
+require 'bundler/setup'
+require 'apple/music'
+require_relative '../spec/constants'
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -15,5 +16,5 @@ end
 @client = Apple::Music::Client.new
 
 # (If you use this, don't forget to add pry to your Gemfile!)
-require "pry"
+require 'pry'
 Pry.start
