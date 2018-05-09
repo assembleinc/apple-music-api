@@ -21,19 +21,19 @@ require 'apple/music/station'
 require 'apple/music/storefront'
 
 module Apple
-  module Music 
-  
+  module Music
+
     class << self
       attr_writer :configuration
     end
-    
+
     def self.configuration
       @configuration ||= Apple::Music::Configuration.new
     end
-    
+
     def self.configure
       yield(configuration) if block_given?
     end
-    
+
   end
 end
