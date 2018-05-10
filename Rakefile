@@ -8,17 +8,7 @@ RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
 
-task :load_client do
-  Apple::Music.configure do |config|
-    config.secret_key = ENV['APPLE_MUSIC_SECRET_KEY']
-    config.key_id     = ENV['APPLE_MUSIC_KEY_ID']
-    config.team_id    = ENV['APPLE_MUSIC_TEAM_ID']
-  end
-
-  Apple::Music::Client.new
-end
-
-task :console do
+task :define_helpers do
   def reload!
     $VERBOSE = nil
 
@@ -29,9 +19,21 @@ task :console do
   end
 
   def load_client
-    Rake::Task['load_client'].invoke
-  end
+    Apple::Music.configure do |config|
+      config.secret_key = ENV['APPLE_MUSIC_SECRET_KEY']
+      config.key_id     = ENV['APPLE_MUSIC_KEY_ID']
+      config.team_id    = ENV['APPLE_MUSIC_TEAM_ID']
+    end
 
+    Apple::Music::Client.new
+  end
+end
+
+task load_client: :define_helpers do
+  load_client
+end
+
+task console: :define_helpers do
   ARGV.clear
   Pry.start
 end
