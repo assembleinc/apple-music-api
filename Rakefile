@@ -33,6 +33,10 @@ task load_client: :define_helpers do
   load_client
 end
 
+task generate_token: :define_helpers do
+  puts load_client.token
+end
+
 task console: :define_helpers do
   ARGV.clear
   Pry.start
