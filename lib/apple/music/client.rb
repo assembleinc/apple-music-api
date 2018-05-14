@@ -43,10 +43,13 @@ module Apple
         {
           iss: Apple::Music.configuration.team_id,
           iat: time,
-          exp: (time + (60 * 60 * 24))
+          exp: (time + TOKEN_LIFETIME_SEC)
         }
       end
 
+      # one week
+      TOKEN_LIFETIME_SEC = 7 * 24 * 60 * 60
+      private_constant :TOKEN_LIFETIME_SEC
     end
   end
 end
