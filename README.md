@@ -18,6 +18,16 @@ Or install it yourself as:
 
     $ gem install apple-music
 
+Create a `$PROJECT_ROOT/.env` file with your API authentication information:
+
+    APPLE_MUSIC_SECRET_KEY="-----BEGIN PRIVATE KEY-----\nabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/+\n-----END PRIVATE KEY-----"
+    APPLE_MUSIC_KEY_ID=ABCDEFG012
+    APPLE_MUSIC_TEAM_ID=HIJKLMN345
+
+Note that the underlying libraries are _very_ sensitive to how `APPLE_MUSIC_SECRET_KEY` is formatted.
+
+Test the configuration by verifying `rake load_client` exits silently without error.
+
 ## Usage
 
 TODO: Write usage instructions here
