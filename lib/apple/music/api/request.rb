@@ -8,7 +8,7 @@ module Apple
     module API
       class Request
         BASE_URL = 'https://api.music.apple.com'.freeze
-        
+
         def initialize(client, request_method, path, options = {})
           @client = client
           @uri = URI.parse(path.start_with?('http') ? path : BASE_URL + path)
@@ -16,7 +16,7 @@ module Apple
           @path = @uri.path
           @options = options
         end
-        
+
         def perform
           response = case @request_method
           when :get
@@ -25,13 +25,13 @@ module Apple
             # raise some sort of error
             Apple::Music::Error::BadRequestMethod.new(body, code)
           end
-          
+
           fail_or_return_parsed_body(response.code, response.body)
         end
-        
+
         def perform_get
-          @uri.query = URI.encode_www_form(clean_options)
-          
+          @uri.query = Rack::Utils.build_nested_query(clean_options)
+
           request = Net::HTTP::Get.new(@uri)
           request['Authorization'] = "Bearer #{@client.token}"
 
@@ -39,16 +39,16 @@ module Apple
             http.request(request)
           end
         end
-        
+
         private
-        
+
         def fail_or_return_parsed_body(code, body)
           error = error(code, body)
           raise(error) if error
-          
+
           symbolize_keys!(JSON.parse(body))
         end
-        
+
         def error(code, body)
           # TODO: handle all status codes differently
           case code.to_i
@@ -64,11 +64,11 @@ module Apple
             Apple::Music::Error.new(body, code)
           end
         end
-        
+
         def clean_options
           @options.reject{|k,v| v.nil? || (!v.is_a?(Integer) && v.empty?) }
         end
-        
+
         def symbolize_keys!(object)
           if object.is_a?(Array)
             object.each_with_index do |val, index|
@@ -81,7 +81,7 @@ module Apple
           end
           object
         end
-        
+
       end
     end
   end
