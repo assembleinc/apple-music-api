@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["chris@inkstonehq.com"]
 
   spec.summary       = %q{Accessibility layer gem for the Apple Music API}
-  spec.homepage      = "https://bitbucket.org/fruitstone/apple-music-api"
+  spec.homepage      = "https://github.com/assemble-inc/apple-music-api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
