@@ -42,8 +42,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Contact Chris (chris@inkstonehq.com)
-Melissa (melissa@inkstonehq.com)
+Contact Chris (chris [at] weassemble.com)
+Melissa (melissa [at] weassemble.com)
 
 ## stuff
 
