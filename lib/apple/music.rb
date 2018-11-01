@@ -1,7 +1,5 @@
 require 'date'
 
-require 'dotenv/load' # HACK: this is wrong
-
 require 'apple/music/version'
 
 require 'apple/music/configuration'
