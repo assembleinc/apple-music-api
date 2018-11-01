@@ -7,7 +7,7 @@ Apple::Music acts as an abstraction for interacting with Apple Music's API.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'apple-music'
+gem 'apple-music', git: 'https://github.com/assemble-inc/apple-music-api'
 ```
 
 And then execute:
